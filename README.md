@@ -2,6 +2,8 @@
 
 Website company profile **Hikimori Const** (desain, bangun & renovasi rumah) — React 18 + Vite 5 + Firebase, deploy di Vercel.
 
+Repositori: https://github.com/mahfudfby/hk-const
+
 ```bash
 npm install
 cp .env.example .env     # isi seperlunya (semua opsional — ada nilai bawaan)
