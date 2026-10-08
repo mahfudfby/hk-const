@@ -1,0 +1,48 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   FONT SELF-HOSTED (subset latin, woff2)
+
+   Sebelumnya font diambil dari fonts.googleapis.com + fonts.gstatic.com: dua host pihak ketiga,
+   masing-masing butuh DNS + TLS + request CSS dulu sebelum file font-nya sendiri diunduh. Di koneksi
+   lambat itu menambah ratusan milidetik sebelum teks tampil dengan font yang benar.
+
+   Sekarang file font ikut di-bundle: satu origin, cache immutable, dan dua font terpenting
+   di-preload (lihat plugin "hikimori-seo" di vite.config.js). Font variabel dipakai bila tersedia —
+   satu file mencakup seluruh rentang ketebalan, jadi lebih kecil daripada beberapa file statis.
+
+   File ini hanya memuat DUA keluarga inti (judul + teks isi) yang dipakai hampir di semua elemen.
+   Font dekoratif (Jost, Cormorant) ada di fonts-display.css dan baru dimuat pada koneksi yang
+   memadai — lihat initPerformanceMode() di src/lib/net.js. Browser juga hanya benar-benar mengunduh
+   varian yang terpakai, jadi mendaftarkan italic di sini tidak membebani halaman yang tak memakainya.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Playfair Display (judul) — variabel 400–900 ── */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 900;
+  src: url('@fontsource-variable/playfair-display/files/playfair-display-latin-wght-normal.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400 900;
+  src: url('@fontsource-variable/playfair-display/files/playfair-display-latin-wght-italic.woff2') format('woff2-variations');
+}
+
+/* ── DM Sans (teks utama) — variabel 100–1000 ── */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 1000;
+  src: url('@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 1000;
+  src: url('@fontsource-variable/dm-sans/files/dm-sans-latin-wght-italic.woff2') format('woff2-variations');
+}

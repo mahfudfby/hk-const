@@ -1,0 +1,76 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   FONT DEKORATIF — Jost (aksen UI) & Cormorant (judul bergaya).
+   Total ±94 KB. Dimuat TERPISAH dan hanya saat koneksi memadai: pada koneksi lambat,
+   Data Saver, perangkat lemah, atau saat pengguna meminta animasi dikurangi, halaman tetap tampil
+   rapi memakai font sistem sebagai pengganti tanpa menghabiskan kuota.
+   Pemuatannya dipicu dari initPerformanceMode() (src/lib/net.js).
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Jost (aksen UI) — variabel 100–900 ── */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/jost/files/jost-latin-wght-normal.woff2') format('woff2-variations');
+}
+
+/* ── Cormorant Garamond (kutipan & teks bergaya) — statis, hanya bobot yang dipakai ── */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('@fontsource/cormorant-garamond/files/cormorant-garamond-latin-700-normal.woff2') format('woff2');
+}
+
+/* ── Cormorant Upright (judul hero bagian bawah) ── */
+@font-face {
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url('@fontsource/cormorant-upright/files/cormorant-upright-latin-300-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/cormorant-upright/files/cormorant-upright-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('@fontsource/cormorant-upright/files/cormorant-upright-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('@fontsource/cormorant-upright/files/cormorant-upright-latin-600-normal.woff2') format('woff2');
+}
