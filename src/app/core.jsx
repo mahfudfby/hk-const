@@ -59,7 +59,7 @@ const ROLES = {
 };
 
 const HARDCODED_USERS = [
-  { username: "Administrator", password: "Admin123",  role: "admin",             name: "Administrator", phone: "", email: "heldanwidianata12@gmail.com", desc: "", photo: "" },
+  { username: "Administrator", password: "Admin123",  role: "admin",             name: "Administrator", phone: "", email: "mahfudfebrys@gmail.com", desc: "", photo: "" },
   { username: "writer1",       password: "writer123", role: "content_writer",    name: "Writer 1",      phone: "", email: "", desc: "", photo: "" },
   { username: "cs1",           password: "cs123",     role: "customer_services", name: "CS 1",          phone: "", email: "", desc: "", photo: "" },
 ];
@@ -684,15 +684,15 @@ const DEFAULT_DATA = {
     aboutV4Icon: "", aboutV4Title: "Harga Transparan",   aboutV4Desc: "RAB detail dan transparan — tidak ada biaya tersembunyi dalam setiap proyek.",
     aboutContactTitle: "Get in Touch",
     aboutContactSub: "We'd love to help plan your next event.",
-    email:   "heldanwidianata@gmail.com",
-    phone:   "+62 821-4029-4820",
+    email:   "mahfudfebrys@gmail.com",
+    phone:   "+62 822-3465-1413",
     address: "Perumahan Puri Mangundikaran, Blok B5 No.21, Kel. Mangundikaran, Kec. Nganjuk, Kab. Nganjuk",
     hours: "Senin – Sabtu: 08.00 – 20.00 WIB",
     waAdmins: [
-      { id: 1, name: "Heldan Widianata", jabatan: "Chief Executive Officer", wa: "https://wa.me/6282140294820", primary: true },
+      { id: 1, name: "Heldan Widianata", jabatan: "Chief Executive Officer", wa: "https://wa.me/6282234651413", primary: true },
       { id: 2, name: "Fredy", jabatan: "Admin", wa: "https://wa.me/6281233275485", primary: false },
     ],
-    waLink: "https://wa.me/6282140294820",
+    waLink: "https://wa.me/6282234651413",
     igLink: "https://instagram.com/hikimori_const",
     fbLink: "https://facebook.com/hikimori.const",
     logoText: "HIKIMORI\nCONST",
