@@ -689,7 +689,7 @@ const DEFAULT_DATA = {
     address: "Perumahan Puri Mangundikaran, Blok B5 No.21, Kel. Mangundikaran, Kec. Nganjuk, Kab. Nganjuk",
     hours: "Senin – Sabtu: 08.00 – 20.00 WIB",
     waAdmins: [
-      { id: 1, name: "Heldan Widianata", jabatan: "Chief Executive Officer", wa: "https://wa.me/6282234651413", primary: true },
+      { id: 1, name: "Mahfudfebry", jabatan: "Chief Executive Officer", wa: "https://wa.me/6282234651413", primary: true },
       { id: 2, name: "Fredy", jabatan: "Admin", wa: "https://wa.me/6281233275485", primary: false },
     ],
     waLink: "https://wa.me/6282234651413",

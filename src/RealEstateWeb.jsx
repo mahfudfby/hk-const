@@ -2113,8 +2113,8 @@ export default function HikimoriConstApp() {
           `}</style>
 
           {/* -- YOUTUBE FLOATING BUTTON -- */}
-          <a href="https://youtube.com/@hikimoriconst" target="_blank" rel="noopener noreferrer"
-            title="Kunjungi YouTube Hikimori Const" className="float-social-btn float-yt-btn"
+          <a href="#" onClick={e => e.preventDefault()}
+            title="YouTube" className="float-social-btn float-yt-btn"
             style={{
               position: "fixed", right: 20, zIndex: 9989,
               borderRadius: "50%",
@@ -2132,8 +2132,8 @@ export default function HikimoriConstApp() {
           </a>
 
           {/* -- INSTAGRAM FLOATING BUTTON -- */}
-          <a href="https://www.instagram.com/hikimori_const" target="_blank" rel="noopener noreferrer"
-            title="Ikuti Instagram @hikimori_const" className="float-social-btn float-ig-btn"
+          <a href="#" onClick={e => e.preventDefault()}
+            title="Instagram" className="float-social-btn float-ig-btn"
             style={{
               position: "fixed", right: 20, zIndex: 9989,
               borderRadius: "50%",
